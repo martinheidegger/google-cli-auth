@@ -1,0 +1,38 @@
+{
+  "name": "google-cli-auth",
+  "version": "0.0.1",
+  "description": "Google authentication library to make dealing with tokens easier, with automatic storage/refreshing.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "joi": "^5.0.2",
+    "co-request": "^0.2.0",
+    "mkdirp": "^0.5.0",
+    "open": "^0.0.5",
+    "request": "^2.51.0"
+  },
+  "devDependencies": {
+    "code": "^1.2.1",
+    "lab": "^5.1.1"
+  },
+  "scripts": {
+    "test": "lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:martinheidegger/google-cli-auth.git"
+  },
+  "keywords": [
+    "google",
+    "auth",
+    "cli"
+  ],
+  "author": "Martin Heidegger <martin.heidegger@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinheidegger/google-cli-auth/issues"
+  },
+  "homepage": "https://github.com/martinheidegger/google-cli-auth"
+}
