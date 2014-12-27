@@ -37,8 +37,8 @@ module.exports = function (options, callback) {
 	joi.validate(options, {
   		  dir: joi.string()
   		, name: joi.string().required()
-  		, client_secret: joi.string()
-  		, client_id: joi.string()
+  		, client_secret: joi.string().required()
+  		, client_id: joi.string().required()
   		, port_from: joi.number().integer().min(1000).default(40000)
   		, port_to: joi.number().integer().min(1000).default(50000)
   		, access_type: "offline"
